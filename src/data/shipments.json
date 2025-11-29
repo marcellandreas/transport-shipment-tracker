@@ -1,0 +1,45 @@
+[
+    {
+        "id": "SHP-1001",
+        "origin": "Jakarta",
+        "destination": "Surabaya",
+        "route": [
+            "Jakarta",
+            "Cirebon",
+            "Semarang",
+            "Surabaya"
+        ],
+        "vehicle_type": "Truck",
+        "status": "Not Assigned",
+        "assigned_transporter": null
+    },
+    {
+        "id": "SHP-1002",
+        "origin": "Bandung",
+        "destination": "Semarang",
+        "route": [
+            "Bandung",
+            "Cirebon",
+            "Semarang"
+        ],
+        "vehicle_type": "Van",
+        "status": "Assigned",
+        "assigned_transporter": {
+            "id": "T-01",
+            "name": "PT Transindo"
+        }
+    },
+    {
+        "id": "SHP-1003",
+        "origin": "Medan",
+        "destination": "Pekanbaru",
+        "route": [
+            "Medan",
+            "Pematang Siantar",
+            "Pekanbaru"
+        ],
+        "vehicle_type": "Truck",
+        "status": "Not Assigned",
+        "assigned_transporter": null
+    }
+]
